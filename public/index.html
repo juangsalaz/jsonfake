@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>JSON Fake - Free Fake Rest API for Placeholder JSON Data</title>
+  <meta name="description" content="JSON Fake provides a free fake REST API with placeholder JSON data for development, testing, learning, and prototyping. Access realistic data quickly for your projects." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
+
+  <meta property="og:title" content="JSON Fake - Free Fake Rest API for Placeholder JSON Data" />
+  <meta property="og:description" content="JSON Fake provides a free fake REST API with placeholder JSON data for development, testing, learning, and prototyping. Access realistic data quickly for your projects." />
+  <meta property="og:image" content="" />
+  <meta property="og:url" content="https://jsonfake.com" />
+  <meta property="og:site_name" content="JSON Fake" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+
+<link rel="canonical" href="https://dummyjson.com" />
+  <link
+    rel="shortcut icon"
+    type="image/x-icon"
+    href="assets/img/favicon.png"
+  />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor, .fa-coffee, .fa-database, .fa-users {font-size:200px}
+
+pre {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  background: #f5f5f5;
+  overflow-x: auto;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Github</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Github</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">{JSON} Fake</h1>
+  <p class="w3-xlarge">Free Fake Rest API for Testing, Learning and Prototyping. Get instant dummy JSON data for your frontend.</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Let's Contribute</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Resources</h1>
+      <h5 class="w3-padding-32">No more fighting with tricky backend setups! JSON Fake makes it easy, so you can get things done without stressing over complicated configs.</h5>
+
+      <p class="w3-text" style="font-size: 16px;">JSON Fake comes with a set of 4 common resources: </p>
+
+      <ul class="w3-text" style="font-size: 20px;">
+        <li><a href="/data/users" target="_blank">/users</a> (10 users)</li>
+        <li><a href="/data/categories" target="_blank">/categories</a> (10 categories)</li>
+        <li><a href="/data/products" target="_blank">/products</a> (10 products)</li>
+        <li><a href="/data/transactions" target="_blank">/transactions</a> (5 transactions)</li>
+      </ul>
+
+      <p class="w3-text" style="font-size: 16px;">Get details of data for each resource: </p>
+
+      <ul class="w3-text" style="font-size: 20px;">
+        <li><a href="/data/users/1" target="_blank">/users/:id</a></li>
+        <li><a href="/data/categories/1" target="_blank">/categories/:id</a></li>
+        <li><a href="/data/products/12345" target="_blank">/products/:id</a></li>
+        <li><a href="/data/transactions/T001" target="_blank">/transactions/:id</a></li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-database w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i class="fa fa-users w3-padding-64 w3-text-red w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Relationship Resources</h1>
+      <h5 class="w3-padding-32">JSON Fake also provided relationship resources, so you can learn about the JSON relationship structure, how to implement the JSON relationship data in the frontend.</h5>
+
+      <ul class="w3-text" style="font-size: 20px;">
+        <li><a href="/data/products/category/personal-care" target="_blank">/products/category/:category-slug</a> (Get products by category)</li>
+        <li><a href="/data/transactions/user/1" target="_blank">/transactions/user/:id</a> (Get transaction by user)</li>
+        <li><a href="/data/transactions/product/12345" target="_blank">/transactions/product/:id</a> (Get transaction by product)</li>
+      </ul>
+    </div>  
+  </div>
+</div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="">
+      <h1>Supported All HTTP Methods</h1>
+      <h3 class="w3-text">Add New User </h3>
+
+      <h5>Adding a new user will not add it into the server.
+        It will simulate a POST request and will return the new created user with a new id</h5>
+
+      <pre><code class="language-javascript">
+        fetch('https://jsonfake.com/data/users/add', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            name: "Michael Smith",
+            username: "mikesmith",
+            email: "mike@gmail.com",
+            address: {
+                street: "123 Main St",
+                city: "New York",
+                state: "NY",
+                zipcode: "10001"
+            },
+            phone: "123-456-7890"
+          })
+        })
+        .then(res => res.json())
+        .then(console.log);
+      </code></pre>
+
+      <h5>Output</h5>
+      <pre><code class="language-javascript">
+        {
+          "message": "User created successfully.",
+          "user": {
+              "id": 123,
+              "name": "Michael Smith 2",
+              "username": "mikesmith 2",
+              "email": "mike2@gmail.com",
+              "address": {
+                  "street": "123 Main St",
+                  "city": "New York",
+                  "state": "NY",
+                  "zipcode": "10001"
+              },
+              "phone": "123-456-7890"
+          }
+        }
+      </code></pre>
+
+      <div style="text-align: center;">
+        <a href="https://documenter.getpostman.com/view/3460037/2sAYBSiXoW" class="w3-button w3-black w3-padding-large w3-large w3-margin-top" target="_blank">More Docs</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-light-grey w3-opacity">  
+  <div class="w3-xlarge w3-padding-30">
+    <a href=""><i class="fa fa-github w3-hover-opacity"></i></a>
+ </div>
+ <p>Let's contribute on this project</p>
+</footer>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" defer></script>
+</html>

@@ -1,0 +1,545 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Michael Smith",
+      "username": "mikesmith",
+      "email": "mike@gmail.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zipcode": "10001"
+      },
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "username": "sarahj",
+      "email": "sarahj@yahoo.com",
+      "address": {
+        "street": "456 Park Ave",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90001"
+      },
+      "phone": "234-567-8901"
+    },
+    {
+      "id": 3,
+      "name": "Robert Brown",
+      "username": "robertb",
+      "email": "robert@hotmail.com",
+      "address": {
+        "street": "789 Madison St",
+        "city": "Chicago",
+        "state": "IL",
+        "zipcode": "60007"
+      },
+      "phone": "345-678-9012"
+    },
+    {
+      "id": 4,
+      "name": "Jessica Davis",
+      "username": "jessicad",
+      "email": "jessica@outlook.com",
+      "address": {
+        "street": "1011 Broadway St",
+        "city": "Houston",
+        "state": "TX",
+        "zipcode": "77001"
+      },
+      "phone": "456-789-0123"
+    },
+    {
+      "id": 5,
+      "name": "James Wilson",
+      "username": "jamesw",
+      "email": "james@icloud.com",
+      "address": {
+        "street": "1213 Wall St",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zipcode": "19019"
+      },
+      "phone": "567-890-1234"
+    },
+    {
+      "id": 6,
+      "name": "Jennifer Miller",
+      "username": "jenniferm",
+      "email": "jennifer@aol.com",
+      "address": {
+        "street": "1415 Liberty St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zipcode": "85001"
+      },
+      "phone": "678-901-2345"
+    },
+    {
+      "id": 7,
+      "name": "John Taylor",
+      "username": "johnt",
+      "email": "john@gmail.com",
+      "address": {
+        "street": "1617 Union St",
+        "city": "San Antonio",
+        "state": "TX",
+        "zipcode": "78201"
+      },
+      "phone": "789-012-3456"
+    },
+    {
+      "id": 8,
+      "name": "Patricia Anderson",
+      "username": "patriciaa",
+      "email": "patricia@yahoo.com",
+      "address": {
+        "street": "1819 Market St",
+        "city": "San Diego",
+        "state": "CA",
+        "zipcode": "92101"
+      },
+      "phone": "890-123-4567"
+    },
+    {
+      "id": 9,
+      "name": "Richard Thomas",
+      "username": "richardt",
+      "email": "richard@hotmail.com",
+      "address": {
+        "street": "2021 Mission St",
+        "city": "Dallas",
+        "state": "TX",
+        "zipcode": "75201"
+      },
+      "phone": "901-234-5678"
+    },
+    {
+      "id": 10,
+      "name": "Linda Jackson",
+      "username": "lindaj",
+      "email": "linda@outlook.com",
+      "address": {
+        "street": "2223 Vine St",
+        "city": "San Jose",
+        "state": "CA",
+        "zipcode": "95101"
+      },
+      "phone": "012-345-6789"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Personal Care",
+      "slug": "personal-care",
+      "description": "Products for personal hygiene, grooming, and self-care.",
+      "products": [
+        {
+          "id": "12345",
+          "name": "Eco-Friendly Bamboo Toothbrush"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "slug": "clothing",
+      "description": "Apparel for men, women, and children, including sustainable fashion.",
+      "products": [
+        {
+          "id": "12346",
+          "name": "Organic Cotton T-Shirt"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Outdoor Gear",
+      "slug": "outdoor-gear",
+      "description": "Products for outdoor activities, camping, and hiking.",
+      "products": [
+        {
+          "id": "12347",
+          "name": "Stainless Steel Water Bottle"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Stationery",
+      "slug": "stationery",
+      "description": "Office and school supplies including notebooks, pens, and more.",
+      "products": [
+        {
+          "id": "12348",
+          "name": "Recycled Paper Notebook"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Household Supplies",
+      "slug": "household-supplies",
+      "description": "Products for cleaning, organizing, and maintaining your home.",
+      "products": [
+        {
+          "id": "12349",
+          "name": "Compostable Trash Bags"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Kitchen Supplies",
+      "slug": "kitchen-supplies",
+      "description": "Eco-friendly products for the kitchen, including storage and utensils.",
+      "products": [
+        {
+          "id": "12350",
+          "name": "Reusable Silicone Food Bags"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pet Supplies",
+      "slug": "pet-supplies",
+      "description": "Products for taking care of your pets, including food and waste management.",
+      "products": [
+        {
+          "id": "12351",
+          "name": "Biodegradable Dog Waste Bags"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Electronics",
+      "slug": "electronics",
+      "description": "Solar-powered and energy-efficient electronic devices and accessories.",
+      "products": [
+        {
+          "id": "12352",
+          "name": "Solar-Powered Phone Charger"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Gardening",
+      "slug": "gardening",
+      "description": "Eco-friendly gardening supplies and composting tools.",
+      "products": [
+        {
+          "id": "12353",
+          "name": "Compost Bin"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Cleaning Supplies",
+      "slug": "cleaning-supplies",
+      "description": "Sustainable cleaning products for your home and office.",
+      "products": [
+        {
+          "id": "12354",
+          "name": "Plant-Based Laundry Detergent"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 12345,
+      "name": "Eco-Friendly Bamboo Toothbrush",
+      "slug": "eco-friendly-bamboo-toothbrush",
+      "description": "A biodegradable bamboo toothbrush with soft, BPA-free bristles, designed for a sustainable lifestyle.",
+      "short_description": "Biodegradable bamboo toothbrush with soft bristles.",
+      "images": [
+        { "url": "https://example.com/images/bamboo_toothbrush_1.jpg", "alt": "Eco-friendly bamboo toothbrush" }
+      ],
+      "thumbnail": "https://example.com/images/bamboo_toothbrush_thumbnail.jpg",
+      "price": 5.99,
+      "discount_price": 4.99,
+      "currency": "USD",
+      "stock_quantity": 150,
+      "availability": "in stock",
+      "category": { "id": 1, "slug": "personal-care" },
+      "brand": "GreenEarth",
+      "attributes": [{ "key": "color", "value": "natural bamboo" }]
+    },
+    {
+      "id": 12346,
+      "name": "Organic Cotton T-Shirt",
+      "slug": "organic-cotton-t-shirt",
+      "description": "Made from 100% organic cotton, this T-shirt is both soft and sustainable.",
+      "short_description": "Soft, organic cotton T-shirt.",
+      "images": [
+        { "url": "https://example.com/images/cotton_tshirt_1.jpg", "alt": "Organic cotton T-shirt" }
+      ],
+      "thumbnail": "https://example.com/images/cotton_tshirt_thumbnail.jpg",
+      "price": 19.99,
+      "currency": "USD",
+      "stock_quantity": 200,
+      "availability": "in stock",
+      "category": { "id": 2, "slug": "clothing" },
+      "brand": "EcoWear",
+      "attributes": [{ "key": "material", "value": "100% organic cotton" }]
+    },
+    {
+      "id": 12347,
+      "name": "Stainless Steel Water Bottle",
+      "slug": "stainless-steel-water-bottle",
+      "description": "Insulated water bottle keeps drinks cold for 24 hours and hot for 12.",
+      "short_description": "24-hour cold stainless steel bottle.",
+      "images": [
+        { "url": "https://example.com/images/water_bottle.jpg", "alt": "Stainless steel water bottle" }
+      ],
+      "thumbnail": "https://example.com/images/water_bottle_thumbnail.jpg",
+      "price": 25.99,
+      "currency": "USD",
+      "stock_quantity": 75,
+      "availability": "in stock",
+      "category": { "id": 3, "slug": "outdoor-gear" },
+      "brand": "AquaPure",
+      "attributes": [{ "key": "capacity", "value": "750 ml" }]
+    },
+    {
+      "id": 12348,
+      "name": "Recycled Paper Notebook",
+      "slug": "recycled-paper-notebook",
+      "description": "Eco-friendly notebook made from 100% recycled paper.",
+      "short_description": "Eco-friendly recycled notebook.",
+      "images": [
+        { "url": "https://example.com/images/recycled_notebook.jpg", "alt": "Recycled paper notebook" }
+      ],
+      "thumbnail": "https://example.com/images/recycled_notebook_thumbnail.jpg",
+      "price": 7.99,
+      "currency": "USD",
+      "stock_quantity": 300,
+      "availability": "in stock",
+      "category": { "id": 4, "slug": "stationery" },
+      "brand": "GreenInk",
+      "attributes": [{ "key": "pages", "value": "100" }]
+    },
+    {
+      "id": 12349,
+      "name": "Compostable Trash Bags",
+      "slug": "compostable-trash-bags",
+      "description": "Eco-friendly trash bags that are fully compostable.",
+      "short_description": "Biodegradable compostable bags.",
+      "images": [
+        { "url": "https://example.com/images/trash_bags.jpg", "alt": "Compostable trash bags" }
+      ],
+      "thumbnail": "https://example.com/images/trash_bags_thumbnail.jpg",
+      "price": 9.99,
+      "currency": "USD",
+      "stock_quantity": 120,
+      "availability": "in stock",
+      "category": { "id": 5, "slug": "household-supplies" },
+      "brand": "EcoBag",
+      "attributes": [{ "key": "capacity", "value": "30 gallons" }]
+    },
+    {
+      "id": 12350,
+      "name": "Reusable Silicone Food Bags",
+      "slug": "reusable-silicone-food-bags",
+      "description": "Durable silicone bags for storing food, dishwasher safe and reusable.",
+      "short_description": "Reusable food-grade silicone bags.",
+      "images": [
+        { "url": "https://example.com/images/food_bags.jpg", "alt": "Reusable silicone food bags" }
+      ],
+      "thumbnail": "https://example.com/images/food_bags_thumbnail.jpg",
+      "price": 14.99,
+      "currency": "USD",
+      "stock_quantity": 180,
+      "availability": "in stock",
+      "category": { "id": 6, "slug": "kitchen-supplies" },
+      "brand": "GreenBag",
+      "attributes": [{ "key": "material", "value": "food-grade silicone" }]
+    },
+    {
+      "id": 12351,
+      "name": "Biodegradable Dog Waste Bags",
+      "slug": "biodegradable-dog-waste-bags",
+      "description": "Eco-friendly dog waste bags that decompose naturally.",
+      "short_description": "Biodegradable dog waste bags.",
+      "images": [
+        { "url": "https://example.com/images/dog_waste_bags.jpg", "alt": "Biodegradable dog waste bags" }
+      ],
+      "thumbnail": "https://example.com/images/dog_waste_bags_thumbnail.jpg",
+      "price": 6.99,
+      "currency": "USD",
+      "stock_quantity": 250,
+      "availability": "in stock",
+      "category": { "id": 7, "slug": "pet-supplies" },
+      "brand": "EcoPet",
+      "attributes": [{ "key": "scent", "value": "unscented" }]
+    },
+    {
+      "id": 12352,
+      "name": "Solar-Powered Phone Charger",
+      "slug": "solar-powered-phone-charger",
+      "description": "Portable solar charger for mobile phones and small devices.",
+      "short_description": "Portable solar phone charger.",
+      "images": [
+        { "url": "https://example.com/images/solar_charger.jpg", "alt": "Solar-powered phone charger" }
+      ],
+      "thumbnail": "https://example.com/images/solar_charger_thumbnail.jpg",
+      "price": 29.99,
+      "currency": "USD",
+      "stock_quantity": 90,
+      "availability": "in stock",
+      "category": { "id": 8, "slug": "electronics" },
+      "brand": "EcoCharge",
+      "attributes": [{ "key": "battery_life", "value": "10 hours" }]
+    },
+    {
+      "id": 12353,
+      "name": "Compost Bin",
+      "slug": "compost-bin",
+      "description": "Small, kitchen-friendly compost bin with odor control.",
+      "short_description": "Kitchen compost bin with odor filter.",
+      "images": [
+        { "url": "https://example.com/images/compost_bin.jpg", "alt": "Compost bin" }
+      ],
+      "thumbnail": "https://example.com/images/compost_bin_thumbnail.jpg",
+      "price": 24.99,
+      "currency": "USD",
+      "stock_quantity": 60,
+      "availability": "in stock",
+      "category": { "id": 9, "slug": "gardening" },
+      "brand": "EcoHome",
+      "attributes": [{ "key": "capacity", "value": "1.5 gallons" }]
+    },
+    {
+      "id": 12354,
+      "name": "Plant-Based Laundry Detergent",
+      "slug": "plant-based-laundry-detergent",
+      "description": "Eco-friendly, plant-based laundry detergent that is safe for sensitive skin.",
+      "short_description": "Natural laundry detergent for sensitive skin.",
+      "images": [
+        { "url": "https://example.com/images/laundry_detergent.jpg", "alt": "Plant-based laundry detergent" }
+      ],
+      "thumbnail": "https://example.com/images/laundry_detergent_thumbnail.jpg",
+      "price": 12.99,
+      "currency": "USD",
+      "stock_quantity": 100,
+      "availability": "in stock",
+      "category": { "id": 10, "slug": "cleaning-supplies" },
+      "brand": "EcoClean",
+      "attributes": [{ "key": "scent", "value": "lavender" }]
+    }
+  ],
+  "transactions": [
+    {
+      "id": "T001",
+      "user_id": 1,
+      "user_name": "Michael Smith",
+      "email": "mike@gmail.com",
+      "products": [
+        {
+          "product_id": 12345,
+          "product_name": "Eco-Friendly Bamboo Toothbrush",
+          "quantity": 2,
+          "price": 5.99,
+          "total_price": 11.98
+        },
+        {
+          "product_id": 12346,
+          "product_name": "Organic Cotton T-Shirt",
+          "quantity": 1,
+          "price": 19.99,
+          "total_price": 19.99
+        }
+      ],
+      "total_amount": 31.97,
+      "transaction_date": "2024-11-14T10:30:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "T002",
+      "user_id": 2,
+      "user_name": "Sarah Johnson",
+      "email": "sarahj@yahoo.com",
+      "products": [
+        {
+          "product_id": 12347,
+          "product_name": "Stainless Steel Water Bottle",
+          "quantity": 1,
+          "price": 25.99,
+          "total_price": 25.99
+        }
+      ],
+      "total_amount": 25.99,
+      "transaction_date": "2024-11-14T11:00:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "T003",
+      "user_id": 3,
+      "user_name": "John Doe",
+      "email": "john@example.com",
+      "products": [
+        {
+          "product_id": 12348,
+          "product_name": "Recycled Paper Notebook",
+          "quantity": 3,
+          "price": 7.99,
+          "total_price": 23.97
+        },
+        {
+          "product_id": 12350,
+          "product_name": "Reusable Silicone Food Bags",
+          "quantity": 2,
+          "price": 14.99,
+          "total_price": 29.98
+        }
+      ],
+      "total_amount": 53.95,
+      "transaction_date": "2024-11-14T12:15:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "T004",
+      "user_id": 4,
+      "user_name": "Jessica Lee",
+      "email": "jessica.lee@example.com",
+      "products": [
+        {
+          "product_id": 12349,
+          "product_name": "Compostable Trash Bags",
+          "quantity": 5,
+          "price": 9.99,
+          "total_price": 49.95
+        }
+      ],
+      "total_amount": 49.95,
+      "transaction_date": "2024-11-14T13:45:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "T005",
+      "user_id": 5,
+      "user_name": "Chris Brown",
+      "email": "chris.brown@example.com",
+      "products": [
+        {
+          "product_id": 12351,
+          "product_name": "Biodegradable Dog Waste Bags",
+          "quantity": 6,
+          "price": 6.99,
+          "total_price": 41.94
+        }
+      ],
+      "total_amount": 41.94,
+      "transaction_date": "2024-11-14T14:00:00Z",
+      "status": "completed"
+    }
+  ]
+}
