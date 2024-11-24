@@ -1,27 +1,28 @@
 import express from 'express';
 import fs from 'fs';
-import clone from 'clone';
 import path from 'path';
+import clone from 'clone';
 import { fileURLToPath } from 'url';
-
-let rawdata = fs.readFileSync('../db.json');
-let data = JSON.parse(rawdata);
+import http from 'http';
 
 const app = express();
-const port = 3000;
-
 app.use(express.json());
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const dbPath = path.join(__dirname, '../db.json');
+const publicPath = path.join(__dirname, '../public');
 
-app.use(express.static(path.join(__dirname, '../public')));
+let rawdata = fs.readFileSync(dbPath);
+let data = JSON.parse(rawdata);
 
+app.use(express.static(publicPath));
+
+// Define routes
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(publicPath, 'index.html'));
 });
-
 
 app.get('/data/users', (req, res) => {
   const clonedUsers = clone(data.users);
@@ -395,6 +396,6 @@ app.post('/data/transactions', (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-});
+const server = http.createServer(app);
+
+export default server;

@@ -15,5 +15,9 @@
       "src": "/data/(.*)",
       "dest": "src/index.js"
     }
+  ],
+  "rewrites": [
+    { "source": "/data/:path*", "destination": "/src/index.js" },
+    { "source": "/", "destination": "/public/index.html" }
   ]
 }
